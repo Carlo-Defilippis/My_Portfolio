@@ -26,12 +26,15 @@ const options = [
   }
 ];
 
+
+// Menu for future use if I want user to switch animations on the fly, for now it is set to fall 
+// animation by default in the fullpage.js and commented out dropdown menu
 const Content = withNavigationContext(({ fullpage, main, action }) => {
   return (
     <div className="content">
       <div className="content__main">{main}</div>
       <div className="content__action">
-        <div className="">
+        <div className="content__action__select">
           {/* <Select
             animation="fallAnimation"
             selected={fullpage.navigation.animation || `foldOutAnimation`}
