@@ -8,7 +8,7 @@ const Mouse = ({ visible = true }) => {
     className.push('hidden');
   }
   return (
-    <button className={className.join(' ').trim()} title="Choose Wisely">
+    <button className={className.join(' ').trim()} title="Scroll Down">
       <span />
     </button>
   );

@@ -16,7 +16,7 @@ const Slider = withNavigationHandlers(AwesomeSlider);
 
 export default withNavigationContext(({ fullpage }) => {
   const isFirstLoad = useRef(true);
-  const animation = fullpage.navigation.animation || `foldOutAnimation`;
+  const animation = fullpage.navigation.animation || `fallAnimation`;
 
   return (
     <Slider
