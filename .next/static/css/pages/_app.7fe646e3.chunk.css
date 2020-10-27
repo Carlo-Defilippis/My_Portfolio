@@ -1,0 +1,239 @@
+body {
+  overflow: hidden; }
+
+.holder {
+  width: 75px;
+  height: 75px;
+  position: relative; }
+  .holder .circle {
+    border-radius: 100% 100% 0 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transform-origin: bottom center; }
+  .holder .circle:nth-child(1) {
+    background: black;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    width: 5px;
+    height: 2.5px;
+    z-index: 15;
+    animation: circle-1 10s infinite ease-in-out; }
+
+@keyframes circle-1 {
+  0% {
+    transform: translateX(-50%) rotate(0deg); }
+  100% {
+    transform: translateX(-50%) rotate(-360deg); } }
+  .holder .circle:nth-child(2) {
+    border: 2px solid black;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    width: 5px;
+    height: 2.5px;
+    z-index: 14;
+    animation: circle-2 10s infinite ease-in-out; }
+
+@keyframes circle-2 {
+  0% {
+    transform: translateX(-50%) rotate(0deg); }
+  100% {
+    transform: translateX(-50%) rotate(-720deg); } }
+  .holder .circle:nth-child(3) {
+    border: 2px solid black;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    width: 10px;
+    height: 5px;
+    z-index: 13;
+    animation: circle-3 10s infinite ease-in-out; }
+
+@keyframes circle-3 {
+  0% {
+    transform: translateX(-50%) rotate(0deg); }
+  100% {
+    transform: translateX(-50%) rotate(-1080deg); } }
+  .holder .circle:nth-child(4) {
+    border: 2px solid black;
+    border-bottom: none;
+    border-radius: 15px 15px 0 0;
+    width: 15px;
+    height: 7.5px;
+    z-index: 12;
+    animation: circle-4 10s infinite ease-in-out; }
+
+@keyframes circle-4 {
+  0% {
+    transform: translateX(-50%) rotate(0deg); }
+  100% {
+    transform: translateX(-50%) rotate(-1440deg); } }
+  .holder .circle:nth-child(5) {
+    border: 2px solid black;
+    border-bottom: none;
+    border-radius: 20px 20px 0 0;
+    width: 20px;
+    height: 10px;
+    z-index: 11;
+    animation: circle-5 10s infinite ease-in-out; }
+
+@keyframes circle-5 {
+  0% {
+    transform: translateX(-50%) rotate(0deg); }
+  100% {
+    transform: translateX(-50%) rotate(-1800deg); } }
+  .holder .circle:nth-child(6) {
+    border: 2px solid black;
+    border-bottom: none;
+    border-radius: 25px 25px 0 0;
+    width: 25px;
+    height: 12.5px;
+    z-index: 10;
+    animation: circle-6 10s infinite ease-in-out; }
+
+@keyframes circle-6 {
+  0% {
+    transform: translateX(-50%) rotate(0deg); }
+  100% {
+    transform: translateX(-50%) rotate(-2160deg); } }
+  .holder .circle:nth-child(7) {
+    border: 2px solid black;
+    border-bottom: none;
+    border-radius: 30px 30px 0 0;
+    width: 30px;
+    height: 15px;
+    z-index: 9;
+    animation: circle-7 10s infinite ease-in-out; }
+
+@keyframes circle-7 {
+  0% {
+    transform: translateX(-50%) rotate(0deg); }
+  100% {
+    transform: translateX(-50%) rotate(-2520deg); } }
+  .holder .circle:nth-child(8) {
+    border: 2px solid black;
+    border-bottom: none;
+    border-radius: 35px 35px 0 0;
+    width: 35px;
+    height: 17.5px;
+    z-index: 8;
+    animation: circle-8 10s infinite ease-in-out; }
+
+@keyframes circle-8 {
+  0% {
+    transform: translateX(-50%) rotate(0deg); }
+  100% {
+    transform: translateX(-50%) rotate(-2880deg); } }
+  .holder .circle:nth-child(9) {
+    border: 2px solid black;
+    border-bottom: none;
+    border-radius: 40px 40px 0 0;
+    width: 40px;
+    height: 20px;
+    z-index: 7;
+    animation: circle-9 10s infinite ease-in-out; }
+
+@keyframes circle-9 {
+  0% {
+    transform: translateX(-50%) rotate(0deg); }
+  100% {
+    transform: translateX(-50%) rotate(-3240deg); } }
+  .holder .circle:nth-child(10) {
+    border: 2px solid black;
+    border-bottom: none;
+    border-radius: 45px 45px 0 0;
+    width: 45px;
+    height: 22.5px;
+    z-index: 6;
+    animation: circle-10 10s infinite ease-in-out; }
+
+@keyframes circle-10 {
+  0% {
+    transform: translateX(-50%) rotate(0deg); }
+  100% {
+    transform: translateX(-50%) rotate(-3600deg); } }
+  .holder .circle:nth-child(11) {
+    border: 2px solid black;
+    border-bottom: none;
+    border-radius: 50px 50px 0 0;
+    width: 50px;
+    height: 25px;
+    z-index: 5;
+    animation: circle-11 10s infinite ease-in-out; }
+
+@keyframes circle-11 {
+  0% {
+    transform: translateX(-50%) rotate(0deg); }
+  100% {
+    transform: translateX(-50%) rotate(-3960deg); } }
+  .holder .circle:nth-child(12) {
+    border: 2px solid black;
+    border-bottom: none;
+    border-radius: 55px 55px 0 0;
+    width: 55px;
+    height: 27.5px;
+    z-index: 4;
+    animation: circle-12 10s infinite ease-in-out; }
+
+@keyframes circle-12 {
+  0% {
+    transform: translateX(-50%) rotate(0deg); }
+  100% {
+    transform: translateX(-50%) rotate(-4320deg); } }
+  .holder .circle:nth-child(13) {
+    border: 2px solid black;
+    border-bottom: none;
+    border-radius: 60px 60px 0 0;
+    width: 60px;
+    height: 30px;
+    z-index: 3;
+    animation: circle-13 10s infinite ease-in-out; }
+
+@keyframes circle-13 {
+  0% {
+    transform: translateX(-50%) rotate(0deg); }
+  100% {
+    transform: translateX(-50%) rotate(-4680deg); } }
+  .holder .circle:nth-child(14) {
+    border: 2px solid black;
+    border-bottom: none;
+    border-radius: 65px 65px 0 0;
+    width: 65px;
+    height: 32.5px;
+    z-index: 2;
+    animation: circle-14 10s infinite ease-in-out; }
+
+@keyframes circle-14 {
+  0% {
+    transform: translateX(-50%) rotate(0deg); }
+  100% {
+    transform: translateX(-50%) rotate(-5040deg); } }
+  .holder .circle:nth-child(15) {
+    border: 2px solid black;
+    border-bottom: none;
+    border-radius: 70px 70px 0 0;
+    width: 70px;
+    height: 35px;
+    z-index: 1;
+    animation: circle-15 10s infinite ease-in-out; }
+
+@keyframes circle-15 {
+  0% {
+    transform: translateX(-50%) rotate(0deg); }
+  100% {
+    transform: translateX(-50%) rotate(-5400deg); } }
+  .holder .circle:nth-child(16) {
+    border: 2px solid black;
+    border-bottom: none;
+    border-radius: 75px 75px 0 0;
+    width: 75px;
+    height: 37.5px;
+    z-index: 0;
+    animation: circle-16 10s infinite ease-in-out; }
+
+@keyframes circle-16 {
+  0% {
+    transform: translateX(-50%) rotate(0deg); }
+  100% {
+    transform: translateX(-50%) rotate(-5760deg); } }
+
