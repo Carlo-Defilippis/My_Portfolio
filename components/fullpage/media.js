@@ -104,21 +104,21 @@ export const media = [
 					<div className="row">
 						<div className="col-4 col-6-md col-12-sm">
 							<article className="mx-auto box style2">
-								<a href="https://carlo-defilippis.github.io/React_Employee_App/" className="mx-auto image featured"><img style={{width: "auto", height: "auto"}} className="rounded border-dark mx-auto" src="https://raw.githubusercontent.com/Carlo-Defilippis/React_Employee_App/master/React.PNG" alt="React Employee Search Screenshot" /></a>
+								<a href="https://carlo-defilippis.github.io/React_Employee_App/" className="mx-auto image featured"><img style={{width: "auto", height: "auto"}} className="rounded border-dark mx-auto" src="https://raw.githubusercontent.com/Carlo-Defilippis/My_Portfolio/master/public/React.PNG" alt="React Employee Search Screenshot" /></a>
 								<h6><a style={{textDecoration: "underline"}} className="text-light" href="https://carlo-defilippis.github.io/React_Employee_App/">React Employee Searcher</a></h6>
 								<p>A dynamic table built with React.js that can be sorted in any way your heart desires!</p>
 							</article>
 						</div>
 						<div className="col-4 col-6-md col-12-sm">
 							<article className="mx-auto box style2">
-								<a href="https://google-book-search-carlo.herokuapp.com/" className="mx-auto image featured"><img style={{width: "auto", height: "auto"}} className="rounded border-dark mx-auto" src="https://github.com/Carlo-Defilippis/google_book_search/raw/master/googlebooks.PNG" alt="Google books search and save screenshot" /></a>
+								<a href="https://google-book-search-carlo.herokuapp.com/" className="mx-auto image featured"><img style={{width: "auto", height: "auto"}} className="rounded border-dark mx-auto" src="https://raw.githubusercontent.com/Carlo-Defilippis/My_Portfolio/master/public/googlebooks.PNG" alt="Google books search and save screenshot" /></a>
 								<h6><a style={{textDecoration: "underline"}} className="text-light" href="https://google-book-search-carlo.herokuapp.com/">Google Books Search and Save</a></h6>
 								<p>A React.js based google book search engine that can also save your favorite books to a list.</p>
 							</article>
 						</div>
 						<div className="col-4 col-6-md col-12-sm">
 							<article className="mx-auto box style2">
-								<a href="https://budget-tracker-carlo.herokuapp.com" className="mx-auto image featured"><img style={{width: "auto", height: "auto"}} className="rounded border-dark mx-auto" src="https://raw.githubusercontent.com/Carlo-Defilippis/Progressive_Budget/master/images/budget.PNG" alt="" /></a>
+								<a href="https://budget-tracker-carlo.herokuapp.com" className="mx-auto image featured"><img style={{width: "auto", height: "auto"}} className="rounded border-dark mx-auto" src="https://raw.githubusercontent.com/Carlo-Defilippis/My_Portfolio/master/public/budget.PNG" alt="" /></a>
 								<h6><a style={{textDecoration: "underline"}} className="text-light" href="https://budget-tracker-carlo.herokuapp.com">Progressive Budget</a></h6>
 								<p>Budget tracker that records data of money spent and paid on a Mongo DataBase, and if the user is offline its saves your user inputs and it then adds the data to the MONGO DataBase when it is back online.</p>
 							</article>
