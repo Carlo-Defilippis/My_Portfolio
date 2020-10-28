@@ -150,9 +150,20 @@ export const media = [
 						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
 						<a href="#contact" className="button large scrolly">Get in touch with me</a>
 					</footer>
+          <div className="content__action__go">
+            <Mouse />
+          </div>
 				</div>
             ]}
           />
+        </Section>
+        <Section wrapper={false} backgroundColor="#4158b4">
+              <Lettering
+                title="Recent Projects"
+                text={[
+                  "Scroll down to view some of my recent work."
+                ]}
+              />
         </Section>
       </Page>
     )
