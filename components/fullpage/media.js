@@ -161,7 +161,7 @@ export const media = [
               <Lettering
                 title="Recent Projects"
                 text={[
-                  "Scroll down to view some of my recent work."
+                  "Scroll up to view some of my recent work."
                 ]}
               />
         </Section>
