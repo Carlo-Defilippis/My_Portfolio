@@ -126,21 +126,21 @@ export const media = [
             
 						<div className="col-4 col-6-md col-12-sm">
 							<article className="mx-auto box style2">
-								<a href="#" className="mx-auto image featured"><img style={{width: "auto", height: "auto"}} className="rounded border-dark mx-auto" src="https://via.placeholder.com/200" alt="" /></a>
+								<a href="#" className="mx-auto image featured"><img style={{width: "auto", height: "auto"}} className="rounded border-dark mx-auto" src="https://via.placeholder.com/1000x800" alt="" /></a>
 								<h6><a style={{textDecoration: "underline"}} className="text-light" href="#">Tempus dolore</a></h6>
 								<p>Ornare nulla proin odio consequat.</p>
 							</article>
 						</div>
 						<div className="col-4 col-6-md col-12-sm">
 							<article className="mx-auto box style2">
-								<a href="#" className="mx-auto image featured"><img style={{width: "auto", height: "auto"}} className="rounded border-dark mx-auto" src="https://via.placeholder.com/200" alt="" /></a>
+								<a href="#" className="mx-auto image featured"><img style={{width: "auto", height: "auto"}} className="rounded border-dark mx-auto" src="https://via.placeholder.com/1000x800" alt="" /></a>
 								<h6><a style={{textDecoration: "underline"}} className="text-light" href="#">Feugiat aliquam</a></h6>
 								<p>Ornare nulla proin odio consequat.</p>
 							</article>
 						</div>
 						<div className="col-4 col-6-md col-12-sm">
 							<article className="mx-auto box style2">
-								<a href="#" className="mx-auto image featured"><img style={{width: "auto", height: "auto"}} className="rounded border-dark mx-auto" src="https://via.placeholder.com/200" alt="" /></a>
+								<a href="#" className="mx-auto image featured"><img style={{width: "auto", height: "auto"}} className="rounded border-dark mx-auto" src="https://via.placeholder.com/1000x800" alt="" /></a>
 								<h6><a style={{textDecoration: "underline"}} className="text-light" href="#">Sed amet ornare</a></h6>
 								<p>Ornare nulla proin odio consequat.</p>
 							</article>
