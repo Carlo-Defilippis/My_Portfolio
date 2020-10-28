@@ -244,7 +244,7 @@ function getOptionalModernScriptVariant(path) {
 
 function getDocumentFiles(buildManifest, pathname) {
   const sharedFiles = (0, _getPageFiles.getPageFiles)(buildManifest, '/_app');
-  const pageFiles = pathname !== '/_error' ? (0, _getPageFiles.getPageFiles)(buildManifest, pathname) : [];
+  const pageFiles = (0, _getPageFiles.getPageFiles)(buildManifest, pathname);
   return {
     sharedFiles,
     pageFiles,

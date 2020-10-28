@@ -19,9 +19,10 @@ function App({ Component, pageProps }) {
         />
         <meta
           name="description"
-          content="Fullpage navigation HOC with 3D animated transitions built on top of React Awesome Slider. GatsbyJS and NextJS recipes available."
+          content="My portfolio showcasing my recent work using react.js and bootstrap."
         />
         <link rel="shortcut icon" href="/static/favicon.ico" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
       </Head>
       <Layout>
         <Component {...pageProps} />

@@ -197,10 +197,15 @@ function App({
     content: "width=device-width,minimum-scale=0.8,maximum-scale=1,user-scalable=no"
   }), _app_jsx("meta", {
     name: "description",
-    content: "Fullpage navigation HOC with 3D animated transitions built on top of React Awesome Slider. GatsbyJS and NextJS recipes available."
+    content: "My portfolio showcasing my recent work using react.js and bootstrap."
   }), _app_jsx("link", {
     rel: "shortcut icon",
     href: "/static/favicon.ico"
+  }), _app_jsx("link", {
+    rel: "stylesheet",
+    href: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
+    integrity: "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T",
+    crossorigin: "anonymous"
   })), _app_jsx(layout_layout, null, _app_jsx(Component, pageProps)));
 }
 
