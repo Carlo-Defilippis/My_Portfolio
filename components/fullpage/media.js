@@ -23,18 +23,18 @@ export const Home = withNavigationContext(({ fullpage }) => {
             ]}
           />
         }
-        action={
-          <div classNameName="button">
-            <AwesomeButton
-              size="large"
-              onPress={() => {
-                fullpage.navigate("/page-two");
-              }}
-            >
-              Goto the next page
-            </AwesomeButton>
-          </div>
-        }
+        // action={
+        //   <div classNameName="button">
+        //     <AwesomeButton
+        //       size="large"
+        //       onPress={() => {
+        //         fullpage.navigate("/page-two");
+        //       }}
+        //     >
+        //       Goto the next page
+        //     </AwesomeButton>
+        //   </div>
+        // }
       />
     </Section>
   );
@@ -51,18 +51,18 @@ export const Third = withNavigationContext(({ fullpage }) => {
             text={["This is a screen with preloaded background image."]}
           />
         }
-        action={
-          <div classNameName="button">
-            <AwesomeButton
-              size="large"
-              onPress={() => {
-                fullpage.navigate("/page-two");
-              }}
-            >
-              Goto the prev page
-            </AwesomeButton>
-          </div>
-        }
+        // action={
+        //   <div classNameName="button">
+        //     <AwesomeButton
+        //       size="large"
+        //       onPress={() => {
+        //         fullpage.navigate("/page-two");
+        //       }}
+        //     >
+        //       Goto the prev page
+        //     </AwesomeButton>
+        //   </div>
+        // }
       />
     </Section>
   );
