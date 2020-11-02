@@ -1,11 +1,11 @@
 import React from 'react';
-import ReactLogo from '../react-logo/react-logo';
+import SpinLogo from '../spin-logo/spin-logo';
 import './startup.scss';
 
 const Startup = () => {
   return (
     <div className="startup">
-      <ReactLogo />
+      <SpinLogo />
     </div>
   );
 };

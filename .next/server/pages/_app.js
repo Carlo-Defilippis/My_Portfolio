@@ -118,8 +118,8 @@ var navigation_ = __webpack_require__("b9ZE");
 // EXTERNAL MODULE: ./components/layout/layout.scss
 var layout = __webpack_require__("Y++o");
 
-// EXTERNAL MODULE: ./components/react-logo/react-logo.js
-var react_logo = __webpack_require__("dngG");
+// EXTERNAL MODULE: ./components/spin-logo/spin-logo.js
+var spin_logo = __webpack_require__("t8Nm");
 
 // EXTERNAL MODULE: ./components/nav/nav.scss
 var nav = __webpack_require__("sq8H");
@@ -142,7 +142,7 @@ const Nav = Object(navigation_["withNavigationContext"])(({
     className: "page-header__wrapper"
   }, __jsx("div", {
     className: "page-header__title"
-  }, __jsx(react_logo["a" /* default */], null), __jsx("div", null, __jsx("h1", null, __jsx("span", null, "Carlo "), __jsx("span", null, "DeFilippis")), __jsx("h2", null, "Portfolio - showcasing my work"), __jsx("small", null, "Built with ", `<3`, " by", " ", __jsx("a", {
+  }, __jsx(spin_logo["a" /* default */], null), __jsx("div", null, __jsx("h1", null, __jsx("span", null, "Carlo "), __jsx("span", null, "DeFilippis")), __jsx("h2", null, "Portfolio - showcasing my work"), __jsx("small", null, "Built with ", `<3`, " by", " ", __jsx("a", {
     target: "_blank",
     href: "https://github.com/Carlo-Defilippis"
   }, "Carlo DeFilippis")))), __jsx("nav", null, __jsx(navigation_["Link"], {
@@ -241,19 +241,33 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ "dngG":
+/***/ "iv0N":
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "sq8H":
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "t8Nm":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _react_logo_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("pZJW");
-/* harmony import */ var _react_logo_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_react_logo_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _spin_logo_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("iv0N");
+/* harmony import */ var _spin_logo_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_spin_logo_scss__WEBPACK_IMPORTED_MODULE_1__);
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-const ReactLogo = () => {
+const SpinLogo = () => {
   return __jsx("div", {
     class: "holder"
   }, __jsx("div", {
@@ -291,21 +305,7 @@ const ReactLogo = () => {
   }));
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (ReactLogo);
-
-/***/ }),
-
-/***/ "pZJW":
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ "sq8H":
-/***/ (function(module, exports) {
-
-
+/* harmony default export */ __webpack_exports__["a"] = (SpinLogo);
 
 /***/ }),
 

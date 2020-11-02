@@ -1,7 +1,7 @@
 import React from 'react';
-import './react-logo.scss';
+import './spin-logo.scss';
 
-const ReactLogo = () => {
+const SpinLogo = () => {
   return (
 <div class="holder">
 	<div class="circle"></div>
@@ -24,4 +24,4 @@ const ReactLogo = () => {
   );
 };
 
-export default ReactLogo;
+export default SpinLogo;

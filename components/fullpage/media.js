@@ -283,7 +283,7 @@ export const media = [
   },
   {
     slug: "page-three",
-    preload: ["http://cdn.lowgif.com/full/a74f1d20edcc3b6f-thomas-l-ricci-abstract-geometry-line-plane-gif-backgrounds.gif"],
+    preload: ["https://github.com/Carlo-Defilippis/My_Portfolio/blob/master/public/contact.gif"],
     classNameName: "slide page-three",
     children: <Third />
   }

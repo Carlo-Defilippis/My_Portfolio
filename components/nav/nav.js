@@ -3,7 +3,7 @@ import {
   withNavigationContext,
   Link
 } from "react-awesome-slider/dist/navigation";
-import ReactLogo from "../react-logo/react-logo";
+import SpinLogo from "../spin-logo/spin-logo";
 import "./nav.scss";
 
 const Nav = withNavigationContext(({ fullpage }) => {
@@ -13,7 +13,7 @@ const Nav = withNavigationContext(({ fullpage }) => {
     <header className="page-header">
       <div className="page-header__wrapper">
         <div className="page-header__title">
-          <ReactLogo />
+          <SpinLogo />
           <div>
             <h1>
               <span>Carlo </span>
