@@ -184,7 +184,7 @@ export const media = [
                     </div>
                   </div>
                   <div className="col-4 col-6-md col-12-sm">
-                  <div className="card mb-2" style={{ width: "auto", height: "auto" }}>
+                    <div className="card mb-2" style={{ width: "auto", height: "auto" }}>
                       <img src="https://via.placeholder.com/1000x800" className="card-img-top" alt="desc" />
                       <div className="card-body">
                         <h5 className="card-title text-dark">Card title</h5>
@@ -200,7 +200,7 @@ export const media = [
                     </div>
                   </div>
                   <div className="col-4 col-6-md col-12-sm">
-                  <div className="card mb-2" style={{ width: "auto", height: "auto" }}>
+                    <div className="card mb-2" style={{ width: "auto", height: "auto" }}>
                       <img src="https://via.placeholder.com/1000x800" className="card-img-top" alt="desc" />
                       <div className="card-body">
                         <h5 className="card-title text-dark">Card title</h5>
@@ -217,7 +217,7 @@ export const media = [
                   </div>
 
                   <div className="col-4 col-6-md col-12-sm">
-                  <div className="card mb-2" style={{ width: "auto", height: "auto" }}>
+                    <div className="card mb-2" style={{ width: "auto", height: "auto" }}>
                       <img src="https://via.placeholder.com/1000x800" className="card-img-top" alt="desc" />
                       <div className="card-body">
                         <h5 className="card-title text-dark">Card title</h5>
@@ -233,7 +233,7 @@ export const media = [
                     </div>
                   </div>
                   <div className="col-4 col-6-md col-12-sm">
-                  <div className="card mb-2" style={{ width: "auto", height: "auto" }}>
+                    <div className="card mb-2" style={{ width: "auto", height: "auto" }}>
                       <img src="https://via.placeholder.com/1000x800" className="card-img-top" alt="desc" />
                       <div className="card-body">
                         <h5 className="card-title text-dark">Card title</h5>
@@ -249,7 +249,7 @@ export const media = [
                     </div>
                   </div>
                   <div className="col-4 col-6-md col-12-sm">
-                  <div className="card mb-2" style={{ width: "auto", height: "auto" }}>
+                    <div className="card mb-2" style={{ width: "auto", height: "auto" }}>
                       <img src="https://via.placeholder.com/1000x800" className="card-img-top" alt="desc" />
                       <div className="card-body">
                         <h5 className="card-title text-dark">Card title</h5>
@@ -266,8 +266,12 @@ export const media = [
                   </div>
                 </div>
                 <footer>
-                  <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-                  <a href="#contact" className="button large scrolly">Get in touch with me</a>
+                  <small>
+                    Built with <span className="text-danger">{`<3`}</span> by{" "}
+                    <a className="text-warning" target="_blank" href="https://github.com/Carlo-Defilippis">
+                      Carlo DeFilippis
+                    </a>
+                  </small>
                 </footer>
 
               </div>
