@@ -43,7 +43,7 @@ export const Home = withNavigationContext(({ fullpage }) => {
 export const Third = withNavigationContext(({ fullpage }) => {
   return (
     <Section wrapper={false}>
-      <Background src="https://www.astrobio.net/wp-content/uploads/2017/07/comet-home.gif" />
+      <Background src="https://raw.githubusercontent.com/Carlo-Defilippis/My_Portfolio/master/public/contact.gif" />
       <Content
         main={
           <Lettering
@@ -283,7 +283,7 @@ export const media = [
   },
   {
     slug: "page-three",
-    preload: ["https://github.com/Carlo-Defilippis/My_Portfolio/blob/master/public/contact.gif"],
+    preload: ["https://raw.githubusercontent.com/Carlo-Defilippis/My_Portfolio/master/public/contact.gif"],
     classNameName: "slide page-three",
     children: <Third />
   }
