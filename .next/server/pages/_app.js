@@ -148,13 +148,13 @@ const Nav = Object(navigation_["withNavigationContext"])(({
   }, "Carlo DeFilippis")))), __jsx("nav", null, __jsx(navigation_["Link"], {
     className: slug === "" ? "selected" : null,
     href: "/"
-  }, "index"), __jsx(navigation_["Link"], {
+  }, "Main Page"), __jsx(navigation_["Link"], {
     className: slug === "page-two" ? "selected" : null,
     href: "/page-two"
-  }, "page-two"), __jsx(navigation_["Link"], {
+  }, "My Recent Work"), __jsx(navigation_["Link"], {
     className: slug === "page-three" ? "selected" : null,
     href: "/page-three"
-  }, "page-three"))));
+  }, "Contact Me"))));
 });
 /* harmony default export */ var nav_nav = (Nav);
 // CONCATENATED MODULE: ./components/layout/layout.js

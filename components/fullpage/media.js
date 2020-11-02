@@ -19,7 +19,7 @@ export const Home = withNavigationContext(({ fullpage }) => {
             title="INDEX"
             text={[
               "This is a single full page fixed screen.",
-              "Use the button bellow to navigate to the next page"
+              "Use the arrow on the side or the navigation buttons to navigate to the next page"
             ]}
           />
         }
