@@ -30,19 +30,19 @@ const Nav = withNavigationContext(({ fullpage }) => {
         </div>
         <nav>
           <Link className={slug === "" ? "selected" : null} href="/">
-            index
+            Main Page
           </Link>
           <Link
             className={slug === "page-two" ? "selected" : null}
             href="/page-two"
           >
-            page-two
+            My Recent Work
           </Link>
           <Link
             className={slug === "page-three" ? "selected" : null}
             href="/page-three"
           >
-            page-three
+            Contact Me
           </Link>
         </nav>
       </div>
