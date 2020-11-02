@@ -283,7 +283,7 @@ export const media = [
   },
   {
     slug: "page-three",
-    preload: ["https://caferati.me/images/series/bojack-0.png"],
+    preload: ["http://cdn.lowgif.com/full/a74f1d20edcc3b6f-thomas-l-ricci-abstract-geometry-line-plane-gif-backgrounds.gif"],
     classNameName: "slide page-three",
     children: <Third />
   }
